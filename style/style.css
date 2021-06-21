@@ -15,8 +15,14 @@
 
 .txt-h1{
     font-family: 'Roboto', 'sans-serif';
-    font-weight: 700;
+    font-weight: 800;
     font-size: xx-large;
+}
+
+.txt-h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .txt-p{
@@ -25,6 +31,25 @@
     font-size: medium;
 }
 
-btn-w{
-    width: 50em;
+.btn-w{
+    height: 58px;
+}
+
+.box-grid{
+    height: 317px;
+    background-color: blue;
+
+}
+
+.img-fill{
+    width: 100%;
+    height: fit-content;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.color-tersier{
+    background-color: blueviolet;
 }
