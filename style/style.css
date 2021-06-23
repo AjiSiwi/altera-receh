@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800;900&display=swap');
 .txt-logo{
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
     font-weight: 700;
     font-size: x-large;
 }
 
 .txt-nav{
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
     font-weight: 700;
     font-size: large;
     text-decoration: none;
@@ -14,25 +14,46 @@
 }
 
 .txt-h1{
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Nunito', 'sans-serif';
     font-weight: 800;
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 .txt-h2{
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 700;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 800;
     font-size: 30px;
 }
 
-.txt-p{
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 300;
-    font-size: medium;
+.txt-form{
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 800;
+    font-size: 20px;
 }
 
-.btn-w{
+.txt-p{
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.txt-btn{
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-cus-primary{
+    display: flex;
+    max-width: 190px;
     height: 58px;
+    width: 525.02px;
+    border-radius: 32px;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(218, 235, 21, 1);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .box-grid{
@@ -41,9 +62,14 @@
 
 }
 
-.img-fill{
+.fill{
+    width: 100%;
+}
+
+.fit-content{
     width: 100%;
     height: fit-content;
+    
 }
 
 .txt-right{
@@ -51,5 +77,26 @@
 }
 
 .color-tersier{
-    background-color: blueviolet;
+    background-color: #5065A2;
+}
+
+.bg-cus-1{
+    background-image: url("images/group 39.png");
+}
+
+.form-primary{   
+    width: 100%; 
+    height: 69px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 11px 0px rgba(185, 198, 238, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-plus{
+    width: 21px;
+    height: 21px;
+}
+
+.dec-none{
+    text-decoration: none;
 }
